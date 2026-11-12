@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "code": 200,
+  "msg": "",
+  "data": {
+    "planName": "GLM Coding Pro（fixture）",
+    "limits": [
+      {
+        "type": "TOKENS_LIMIT",
+        "unit": 3,
+        "number": 5,
+        "percentage": 28,
+        "usage": 28000,
+        "currentValue": 100000,
+        "remaining": 72000,
+        "nextResetTime": 1791437995000
+      },
+      {
+        "type": "TOKENS_LIMIT",
+        "unit": 6,
+        "number": 1,
+        "percentage": 69,
+        "usage": 690000,
+        "currentValue": 1000000,
+        "remaining": 310000,
+        "nextResetTime": 1791985155000
+      }
+    ]
+  }
+}

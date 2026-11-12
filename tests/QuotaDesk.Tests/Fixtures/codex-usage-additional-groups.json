@@ -1,0 +1,48 @@
+{
+  "plan_type": "pro",
+  "rate_limit": {
+    "allowed": true,
+    "limit_reached": false,
+    "primary_window": {
+      "used_percent": 137.5,
+      "limit_window_seconds": 604800,
+      "reset_at": 1791985155
+    },
+    "secondary_window": null
+  },
+  "additional_rate_limits": [
+    {
+      "limit_name": "gpt-5-pro",
+      "metered_feature": "tool_uses",
+      "rate_limit": {
+        "allowed": false,
+        "limit_reached": true,
+        "primary_window": {
+          "used_percent": 100,
+          "limit_window_seconds": 18000,
+          "reset_at": 1791437995
+        },
+        "secondary_window": {
+          "used_percent": 64.25,
+          "limit_window_seconds": 604800,
+          "reset_at": 1791985155
+        }
+      }
+    },
+    {
+      "limit_name": "codex-model-x",
+      "metered_feature": "messages",
+      "rate_limit": {
+        "allowed": true,
+        "limit_reached": false,
+        "primary_window": {
+          "used_percent": 41,
+          "limit_window_seconds": 86400,
+          "reset_at": 1791471595
+        },
+        "secondary_window": null
+      }
+    }
+  ],
+  "rate_limit_reached_type": "primary"
+}

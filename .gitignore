@@ -1,0 +1,20 @@
+# Builds and IDE
+**/bin/
+**/obj/
+.vs/
+*.user
+dist/
+artifacts/
+outputs/
+# Local data and credentials
+.env
+.env.*
+*.pfx
+*.p12
+*.pem
+*.key
+*.log
+auth.json
+settings.json
+notes.json
+glm-key.bin
